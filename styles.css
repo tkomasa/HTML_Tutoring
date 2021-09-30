@@ -1,0 +1,16 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+.content__container {
+    padding: 2rem;
+}
+
+.content__container h1 {
+    color: rgb(114, 16, 114);
+}
+
+.content__container p {
+    color: rgb(30, 136, 139);
+}
