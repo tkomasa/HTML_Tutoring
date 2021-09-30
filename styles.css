@@ -3,14 +3,39 @@
     box-sizing: border-box;
 }
 
+
+/* Navigation Bar */
+
+.navbar {
+    background: linear-gradient(to right, teal, purple);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    font-size: 2rem;
+}
+
+
+/*TODO: go over spacing the navbar elements and making the background fill all the way*/
+
+.navbar__links a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* Content */
+
 .content__container {
     padding: 2rem;
 }
 
 .content__container h1 {
-    color: rgb(114, 16, 114);
+    color: purple;
 }
 
 .content__container p {
-    color: rgb(30, 136, 139);
+    color: teal;
 }
