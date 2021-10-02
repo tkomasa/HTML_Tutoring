@@ -1,5 +1,5 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Source Code Pro', monospace;
     box-sizing: border-box;
 }
 
@@ -7,19 +7,28 @@
 /* Navigation Bar */
 
 .navbar {
-    background: linear-gradient(to right, teal, purple);
+    background: linear-gradient(to right, teal, rgb(131, 20, 131));
     z-index: 999;
     display: flex;
     justify-content: center;
     align-items: center;
     position: sticky;
     font-size: 2rem;
+    margin: -8px;
+    height: 65px;
+    border-bottom: solid 3px rgb(49, 49, 49);
 }
 
 .navbar__links a {
     color: white;
     text-decoration: none;
-    text-transform: uppercase;
+    margin: 0 3rem;
+}
+
+.navbar__links a:hover {
+    color: lightgray;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 
