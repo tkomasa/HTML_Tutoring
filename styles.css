@@ -9,18 +9,32 @@
 .navbar {
     background: linear-gradient(to right, teal, rgb(131, 20, 131));
     z-index: 999;
+    font-size: 2rem;
+    position: sticky;
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: sticky;
-    font-size: 2rem;
     margin: -8px;
     height: 65px;
     border-bottom: solid 3px rgb(49, 49, 49);
 }
 
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    height: 65px;
+    margin-right: 50%;
+}
+
+.navbar__links {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin: -8px;
+}
+
 .navbar__links a {
-    color: white;
+    color: rgb(161, 161, 161);
     text-decoration: none;
     margin: 0 3rem;
 }
