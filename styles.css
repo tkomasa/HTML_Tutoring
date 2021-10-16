@@ -82,6 +82,23 @@
     background-color: rgb(107, 1, 107);
 }
 
+.image {
+    padding: 3rem 0;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-style: outset;
+    border-width: 5px;
+    filter: grayscale();
+}
+
+.image img:hover {
+    border-style: inset;
+    filter: none;
+}
+
 
 /* Footer */
 
