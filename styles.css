@@ -59,3 +59,46 @@
 .content__container p {
     color: teal;
 }
+
+.button {
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(0, 107, 107);
+    color: white;
+    background-color: teal;
+    padding: 5px 15px;
+}
+
+.button:hover {
+    border-color: rgb(95, 2, 95);
+    color: white;
+    background-color: purple;
+}
+
+.button:active {
+    border-style: inset;
+    border-color: rgb(68, 1, 68);
+    color: white;
+    background-color: rgb(107, 1, 107);
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: darkgrey;
+    margin: -8px;
+    margin-bottom: -16px;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+}
+
+.footer__links a:hover {
+    color: purple;
+}
